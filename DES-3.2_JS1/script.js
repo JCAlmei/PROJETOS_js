@@ -1,9 +1,5 @@
-function cumprimentar(){
- 
-for(let i = 0; i < 3; i++){
-    console.log("Conexão feita com sucesso!");
-}
-
-}
-
-cumprimentar();
+const mensagem = () => {
+    for(let i = 0; i < 3; i++){
+     console.log("Conexão feita com sucesso!");}
+ }
+ mensagem();
